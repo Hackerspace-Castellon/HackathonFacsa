@@ -1,0 +1,38 @@
+Crypt_Xtea documentation
+------------------------
+$Id: README,v 1.2 2004/10/04 19:52:23 jeroend Exp $
+
+The Crypt_Xtea package is a simple class to enable XTEA encryption on
+sites where e.g. the mcrypt module is not installed.
+The original C code on which this class is based was found at
+from http://vader.brad.ac.uk/tea/source.shtml#new_ansi
+Currently to be found at: http://www.simonshepherd.supanet.com/source.shtml#new_ansi
+
+Use of the class is fairly straightforward:
+
+<?php
+	require_once 'Crypt/Xtea.php';
+
+	$data = 'abcdefghijklmnopqrstuvwxyz';
+	$key = '0123456789abcdef';
+
+	$crypt = new Crypt_Xtea();
+	$encrypted = $crypt->encrypt($data, $key);
+	$decrypted = $crypt->encrypt($encrypt, $key);
+?>
+
+The output of both the encrypt() and decrypt() functions is a binary
+string.
+
+For your convenience a PHPUnit test class and test script have been
+installed in the PEAR tests directory. To use it, check the Makefile
+or try:
+
+	make profile test
+
+In version 1.1 a major bug in doing signed/unsigned calculations was
+fixed after reports on the class not working on a Mac (thanks to
+David Costa). Due to the fix the encryption/decryption process is now
+relatively slow. Please check whether the amounts of data you want to
+encrypt are relatively small, otherwise I'd suggest using the mcrypt
+module.

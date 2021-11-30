@@ -1,0 +1,23 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2021-11-23] XAMPP for Linux 8.0.13-0
+This version of XAMPP contains the following software releases:
+   - Apache 2.4.51
+   - MariaDB 10.4.22
+   - OpenSSL 1.1.1l
+   - PEAR 1.7.1
+   - PHP 8.0.13
+   - phpMyAdmin 5.1.1
+   - Update kernel and systemd for OS X VM (CVE-2021-33909 and CVE-2021-33910)
+  
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+[2021-01-19] XAMPP for Linux 8.0.1-0
+This version of XAMPP contains the following software releases:
+   - Apache 2.4.46
+   - MariaDB 10.4.17
+   - OpenSSL 1.1.1i
+   - PEAR 1.7.1
+   - PHP 8.0.1
+   - phpMyAdmin 5.0.4

@@ -1,0 +1,25 @@
+.code-manager-table-settings {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #ccc;
+}
+.code-manager-table-settings th, .code-manager-table-settings td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: left;
+}
+.code-manager-table-settings th {
+    width: 200px;
+    vertical-align: top;
+}
+.code-manager-table-settings tr {
+    border-bottom: 1px solid #ccc;
+}
+.code-manager-table-settings tr:nth-child(even) {
+    background: #fff;
+}
+.code-manager-table-settings-button {
+    margin-top: 20px;
+    margin-left: 20px;
+}

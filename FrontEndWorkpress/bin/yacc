@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /opt/lampp/bin/bison -y "$@"

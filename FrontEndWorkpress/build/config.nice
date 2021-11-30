@@ -1,0 +1,73 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/opt/lampp/include/c-client -I/opt/lampp/include/libpng -I/opt/lampp/include/freetype2 -O3 -L/opt/lampp/lib -I/opt/lampp/include -I/opt/lampp/include/ncurses"; export CFLAGS
+CPPFLAGS="-I/opt/lampp/include/c-client -I/opt/lampp/include/libpng -I/opt/lampp/include/freetype2 -O3 -L/opt/lampp/lib -I/opt/lampp/include -I/opt/lampp/include/ncurses"; export CPPFLAGS
+LDFLAGS="-Wl,--rpath -Wl,/opt/lampp/lib -L/opt/lampp/lib -I/opt/lampp/include -L/opt/lampp/lib -L/opt/lampp"; export LDFLAGS
+"./configure" \
+"--prefix=/opt/lampp" \
+"--enable-nonportable-atomics" \
+"--sysconfdir=/opt/lampp/etc" \
+"--enable-auth-anon" \
+"--enable-auth-dbm" \
+"--enable-auth-digest" \
+"--enable-file-cache" \
+"--enable-echo" \
+"--enable-charset-lite" \
+"--enable-cache" \
+"--enable-disk-cache" \
+"--enable-mem-cache" \
+"--enable-ext-filter" \
+"--enable-case-filter" \
+"--enable-case-filter-in" \
+"--enable-deflate" \
+"--enable-mime-magic" \
+"--enable-cern-meta" \
+"--enable-expires" \
+"--enable-headers" \
+"--enable-usertrack" \
+"--enable-unique-id" \
+"--enable-proxy" \
+"--enable-proxy-connect" \
+"--enable-proxy-ftp" \
+"--enable-proxy-http" \
+"--enable-bucketeer" \
+"--enable-http" \
+"--enable-info" \
+"--enable-suexec" \
+"--enable-cgid" \
+"--enable-vhost-alias" \
+"--enable-speling" \
+"--enable-rewrite" \
+"--enable-so" \
+"--with-z=/opt/lampp" \
+"--with-expat=/opt/lampp" \
+"--enable-dav" \
+"--enable-dav-fs" \
+"--enable-mods-shared=most" \
+"--with-mpm=prefork" \
+"--with-suexec-caller=nobody" \
+"--with-suexec-docroot=/opt/lampp/htdocs" \
+"--without-berkeley-db" \
+"--enable-ldap" \
+"--with-ldap" \
+"--enable-auth-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ipv6" \
+"--enable-dbd" \
+"--enable-https" \
+"--with-nghttp2=/opt/lampp" \
+"--with-mysql=/opt/lampp" \
+"--with-apr=/opt/lampp/bin/apr-1-config" \
+"--with-apr-util=/opt/lampp/bin/apu-1-config" \
+"--with-pcre=/opt/lampp" \
+"--enable-modules=all" \
+"--enable-ssl" \
+"--with-ssl=/opt/lampp" \
+"CC=gcc" \
+"CFLAGS=-I/opt/lampp/include/c-client -I/opt/lampp/include/libpng -I/opt/lampp/include/freetype2 -O3 -L/opt/lampp/lib -I/opt/lampp/include -I/opt/lampp/include/ncurses" \
+"LDFLAGS=-Wl,--rpath -Wl,/opt/lampp/lib -L/opt/lampp/lib -I/opt/lampp/include -L/opt/lampp/lib -L/opt/lampp" \
+"CPPFLAGS=-I/opt/lampp/include/c-client -I/opt/lampp/include/libpng -I/opt/lampp/include/freetype2 -O3 -L/opt/lampp/lib -I/opt/lampp/include -I/opt/lampp/include/ncurses" \
+"$@"

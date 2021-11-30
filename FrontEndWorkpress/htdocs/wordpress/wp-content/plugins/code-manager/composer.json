@@ -1,0 +1,14 @@
+{
+  "name": "code-manager",
+  "authors": [
+    {
+      "name": "Peter Schulz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Code_Manager\\": "Code_Manager/"
+    }
+  },
+  "require": {}
+}

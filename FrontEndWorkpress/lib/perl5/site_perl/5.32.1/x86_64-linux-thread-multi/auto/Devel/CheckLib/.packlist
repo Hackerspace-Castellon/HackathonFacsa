@@ -1,0 +1,4 @@
+/opt/lampp/bin/use-devel-checklib
+/opt/lampp/lib/perl5/site_perl/5.32.1/Devel/CheckLib.pm
+/opt/lampp/share/man/man1/use-devel-checklib.1
+/opt/lampp/share/man/man3/Devel::CheckLib.3

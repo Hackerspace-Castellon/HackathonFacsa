@@ -1,0 +1,13 @@
+prefix=/opt/lampp
+exec_prefix=/opt/lampp
+libdir=/opt/lampp/lib
+includedir=/opt/lampp/include
+datarootdir=/opt/lampp/share
+datadir=/opt/lampp/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.9.4
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}

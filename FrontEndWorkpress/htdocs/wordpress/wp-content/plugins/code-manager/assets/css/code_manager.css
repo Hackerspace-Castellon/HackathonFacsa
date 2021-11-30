@@ -1,0 +1,85 @@
+.CodeMirror {
+    border: 1px solid #ddd;
+}
+.CodeMirror-fullscreen {
+    position: fixed;
+    top: 134px;
+    left: 180px;
+    right: 20px;
+    bottom: 0;
+    height: auto;
+    z-index: 9;
+}
+#iframe_container {
+    height: 600px;
+    resize: vertical;
+    overflow: auto;
+}
+#iframe_code_test {
+    width: 100%;
+    height: 100%;
+}
+fieldset.cm_fieldset {
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 10px;
+}
+fieldset.cm_fieldset legend {
+    font-weight: bold;
+}
+.cm_simple_table {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cm_simple_table td.label {
+    display: table-cell;
+    vertical-align: middle;
+    width: 15%;
+    text-align: right;
+}
+.cm_simple_table td.data {
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+.cm_simple_table td.data input, .cm_simple_table td.data select, .cm_simple_table td.data textarea {
+    width: 100%;
+    max-width: 100%;
+}
+.cm_simple_table td.data textarea {
+    height: 150px;
+}
+.cm_simple_table td.data input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+}
+.cm_simple_table td.icon {
+    display: table-cell;
+    vertical-align: middle;
+    width: 15%;
+    text-align: left;
+    padding-top: 1px;
+}
+table.cm_simple_table > tbody > :nth-child(2n+1) td {
+    background-color: #f9f9f9;
+    display: table-cell;
+}
+table.cm_simple_table tbody td.label {
+    padding-right: 5px;
+}
+table.cm_simple_table tbody td.icon {
+    padding-left: 5px;
+}
+.cm_data_type {
+    font-size: 80%;
+    background-color: white;
+    border: 1px solid gray;
+    padding-left: 1px;
+    padding-right: 1px;
+}

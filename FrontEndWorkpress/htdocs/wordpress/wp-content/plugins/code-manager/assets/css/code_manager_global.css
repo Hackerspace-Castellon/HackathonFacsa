@@ -1,0 +1,13 @@
+.cm_page_title {
+    padding-right: 10px;
+}
+.cm_menu_title {
+    font-size: 30px;
+    vertical-align: bottom;
+}
+.notifyjs-corner {
+    margin-top: 42px !important;
+}
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}

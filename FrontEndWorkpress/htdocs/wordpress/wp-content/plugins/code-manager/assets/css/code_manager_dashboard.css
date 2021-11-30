@@ -1,0 +1,194 @@
+#cm-dashboard {
+    background-color: #fff;
+    color: inherit;
+    width: 100%;
+    margin-left: -20px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #c3c4c7;
+}
+#cm-dashboard .cm-dashboard {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 3px;
+    border-right: 1px solid #c3c4c7;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group:last-child {
+    margin-right: 20px;
+    border-right: none;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group:hover {
+    background-color: #f6f7f7;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group .cm-dashboard-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 8.5px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #3c434a;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group .cm-dashboard-item:hover {
+    color: #2271b1;
+    cursor: pointer;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group .cm-dashboard-item .fas {
+    font-size: 28px;
+    padding: 10px 8px 0 8px;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group .cm-dashboard-item .material-icons {
+    font-size: 28px;
+    padding: 10px 8px 0 8px;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group .cm-dashboard-item div {
+    padding: 8px 0;
+}
+#cm-dashboard .cm-dashboard .cm-dashboard-group .subject {
+    text-align: center;
+    font-size: 9px;
+}
+.cm-dashboard-toolbar {
+    font-size: 24px;
+    line-height: 35px;
+    background-color: #fff;
+    color: inherit;
+    width: 100%;
+    margin-left: -20px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #c3c4c7;
+}
+#cm-dashboard-mobile {
+    background-color: #fff;
+    color: inherit;
+    margin-left: -10px;
+    padding: 0;
+    border-bottom: 1px solid #c3c4c7;
+}
+@media screen and (min-width: 782px) {
+    #cm-dashboard-mobile {
+        margin-left: -20px;
+    }
+}
+#cm-dashboard-drop-down {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.cm_nav_title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+.cm_nav_toggle {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#cm-dashboard-mobile ul {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#cm-dashboard-mobile ul li.menu-item {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin: 0;
+}
+#cm-dashboard-mobile ul li.menu-item a {
+    text-decoration: none;
+    color: inherit;
+}
+#cm-dashboard-mobile ul li.menu-item:hover {
+    background-color: grey;
+    color: white;
+}
+#cm-dashboard-mobile .material-icons {
+    width: 20px;
+    font-size: 16px;
+    vertical-align: text-top;
+}
+.cm-separator {
+    border-bottom: 1px solid #c3c4c7;
+}
+
+/* TOOLTIP */
+
+.cm_tooltip_css {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    font: bold 10px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+i.cm_tooltip:hover {
+    cursor: pointer;
+}
+.cm_tooltip_dashboard {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    font: bold 10px "Helvetica Neue", Sans-Serif;
+    box-shadow: 0 0 7px black;
+}
+.cm_tooltip_icons_css, .arrow:after {
+    background: black;
+    border: 2px solid white;
+}
+.cm_tooltip_icons_css {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 10px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+.php-error #adminmenuwrap {
+    margin-top: 0;
+}

@@ -1,0 +1,48 @@
+#code_manager_open_frame {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ddd;
+}
+.CodeMirror {
+    border: 1px solid #ddd;
+    height: auto;
+}
+.tab_task_bar {
+    background-color: #ddd;
+    padding: 10px;
+}
+.icon_close {
+    margin-left: 8px;
+    cursor: pointer;
+    color: gray;
+    font-size: 110%;
+    padding-top: 4px;
+    width: 14px;
+}
+.icon_close:hover {
+    color: dimgray;
+}
+.tab_preview {
+    height: 600px;
+    resize: vertical;
+    overflow: auto;
+}
+.iframe_preview {
+    width: 100%;
+    height: 100%;
+}
+.non-active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+.tab_unsaved_changes {
+    color: red !important;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    padding-right: 8px !important;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    padding-top: 5px;
+}
